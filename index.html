@@ -77,13 +77,13 @@
 	        	// BEGIN DO NOT EDIT SECTION 
 	        	console.log("completeRegistration Function")
 
-	        	alert("Required Registration Step - click OK to continue" + 
+	        	//alert("Required Registration Step - click OK to continue" + 
 	        		   "\n" + "Email address provided is email@example.com");
 
-	        	alert("Required Registration Step - click OK to continue" + 
+	        	//alert("Required Registration Step - click OK to continue" + 
 	        		   "\n" + "Phone number provided +15551234567");
 
-	        	alert("Registration Complete - Logged in as email@example.com");
+	        	//alert("Registration Complete - Logged in as email@example.com");
 
 	        	var phone = "+15551234567";
 	        	var email = "email@example.com";
@@ -93,13 +93,9 @@
 
 	        	// BEGIN - PLACE YOUR FUNCTIONS IN THIS SECTION 
                 // EVENT ID 
-                var event_id = generateEventId();
+                
                 // USER DATA -  ADVANCED MATCHING PARAMETERS
-                var user_data = getUserData();
-				var event_name = 'CompleteRegistration';
-               
-                if (Object.keys(user_data).length > 0) ttq.identify(user_data) 		
-	        	ttq.track(event_name,{event_id: event_id}) 
+                
         	    //END - PLACE YOUR FUNCTIONS IN THIS SECTION 
         	}		
             
